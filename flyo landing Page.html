@@ -5,46 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <body>
     <title>FLYO</title>
-    <nav>
-      <img
-        src="data:image/jpeg;base64,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"
-        width="30px"
-      />
-      <header><strong>Flyo</strong></header>
-      <br />
-      <nav>Features</nav>
-      <nav>Team</nav>
-      <nav>Sign In</nav>
+    <style>
+      body{
+        background-color:whitesmoke
+      }
+      menu{
+        position:absolute; top:0px; right:20px; color:blueviolet;text-transform: var(10px);
+        text-align:left;
+        text-decoration-skip: green;
 
-      <style>
-        header {
-          color: rgb(52, 7, 92);
-          position-area: right;
-          text-size-adjust: ;
-        }
-      </style>
-    </nav>
-    <section>
-      <h1>
-        All your files in one secure<br />
-        location, accesssible anywhere.
-      </h1>
-      <p>
-        Fylo stores your most important files in one secure loaction. Acess
-        <br />them wherever you need,share and collaborate with
-        friends,family<br />
-        and co-workers.
-      </p>
-      <input type="text" id="email" placeholder="Enter your email.." />
-      <button>Get Started</button>
-      <style>
-        button {
-          color: white;
-          background-color: rgb(37, 37, 205);
-        }
-      </style>
-    </section>
+      }
+     
+      
+     </style>
+   
   </head>
+
+
+  <nav>
+    <img
+      src="data:image/jpeg;base64,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"
+      width="30px">
+    <header><strong>Flyo</strong></header>
+    <br />
+    <menu>
+      <li>Features</li>
+      <li>Team</li>
+      <li>Sign In</li>
+    </menu>
+    
+
+    <style>
+      header {
+        color: rgb(52, 7, 92);
+        position-area: right;
+        text-size-adjust: ;
+      } 
+      
+      button {
+        color: white;
+        background-color: rgb(37, 37, 205);
+      }
+     
+      a {
+        color: green;
+        text-decoration: underline;
+      }
+   
+  
+    </style>
+  </nav>
+  <section>
+    <h1>
+      All your files in one secure<br />
+      location, accesssible anywhere.
+    </h1>
+    <p>
+      Fylo stores your most important files in one secure loaction. Acess
+      <br />them wherever you need,share and collaborate with
+      friends,family<br />
+      and co-workers.
+    </p>
+    <input type="text" id="email" placeholder="Enter your email.." />
+    <button>Get Started</button>
+    
+  </section>
 
   <br />
   <section>
@@ -61,28 +86,66 @@
     <a href="flyo.com">See how Flyo Works</a>
     <img
       src="c:\Users\user\Downloads\right-arrow-green-circle-20570.png"
-      width="10px"
-    />
+     class="image1" width="10px">
+    
 
-    <style>
-      a {
-        color: green;
-        text: underline;
-      }
-    </style>
+  
   </section>
   <section>
     
+    
     <container><br>
-        <img src="left-quotes-black-double-quotation-marks-21310.png">
+        <img src="left-quotes-black-double-quotation-marks-21310.png" class="image2">
         <p>Flyo has improved our team productivity by<br>
             an order of magnitude. Since making the <br>
             switch our team has become a well-oiled <br>collaboration machine.
         </p>
-        <img src="1613789898624.jpg" width="50px"> <br>Kyle Burto<br>Founder& CEO,Huddle.
+        <img src="1613789898624.jpg" width="50px"> <br>Kyle Burton<br>Founder& CEO,Huddle.
         
     </container>
     
   </section>
+
+ <section3>
+   
+  <h5>Get early access today</h5>
+  <p>It only takes a minute to sign up and our free starter tier is<br>
+  extremely generous.If you have any questions,our support team<br>
+would be happy to help you.</p>
+
+  <input type="text" id="Email" placeholder="email@example.com"><br>
+<button>Get Started For Free</button>
+  
+  
+ </section3>
+ <nav>
+  <br>
+  <img src="data:image/jpeg;base64,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"
+        width="30px" class="image3"
+      />
+  <h><strong>Flyo</strong></h>
+  </nav><br>
+ <img src="https://www.iconpacks.net/icons/1/free-icon-phone-ringing-2.png" width="20px"> phone: +1-543-123-4567<br>
+
+
+ <img src="https://www.iconpacks.net/icons/3/free-icon-mail-5722.png" width="20px"> example@flyo.com<br>
+ <div class="#">
+  <ul>
+  <li>About Us</li> 
+  <li>Jobs</li>
+  <li>Press</li>
+  <li>Blog</li>
+</ul>
+ 
+ </div>
+ <div>
+  <ul>
+    <li>Contact Us</li>
+    <li>Terms</li>
+    <li>Privacy</li>
+  </ul>
+ </div>
+ <img src="https://www.iconpacks.net/icons/2/free-icon-facebook-2870.png" width="20px"><img src="https://www.iconpacks.net/icons/2/free-icon-twitter-2170.png" width="20px">
+ <img src="https://www.iconpacks.net/icons/free-icons-6/free-instagram-circle-round-purple-icon-22710.png" width="20px">
   </body>
 </html>
